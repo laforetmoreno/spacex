@@ -1,5 +1,7 @@
 import React, { FC } from 'react';
 
-const App: FC = () => <h1>App</h1>;
+import Routes from './Routes';
+
+const App: FC = () => <Routes />;
 
 export default App;
